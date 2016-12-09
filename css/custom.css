@@ -1,0 +1,146 @@
+﻿.nav li a{
+     color:#fff;
+
+}
+@media (min-width:768px)  {
+    .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: red;
+   font-family:RobotoSlab-Thin;
+   background: url('../img/easy.jpg') no-repeat;
+   background-position:center bottom;
+}
+
+
+
+}
+@font-face {
+    font-family: 'RobotoSlab-Thin';
+    src: url('../fonts/RobotoSlab-Thin.ttf') format('truetype');
+}
+.container-fluid {
+    background-color: #1a1e27;
+}
+aside{
+    background-color:#1a1e27;
+    color:#fff;
+    
+}
+.sasa{
+    text-align:center;
+    padding-bottom:20px;
+   
+}
+aside img{
+     padding-right:20px;
+     padding-bottom:20px;
+     padding-left:20px;
+}
+
+@media (max-width:767px)  {
+    .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+  background-color:#313a4e;
+   font-family:RobotoSlab-Thin;  
+}
+}
+section.col-lg-8 img{
+    height: 243px;
+     width: 750px;
+}
+@media (max-width:1200px){
+ aside{
+     width:243px;
+ }
+ aside img{
+     padding:5px;
+     padding-bottom:13px;
+     width:60px;
+ }
+}
+.best{
+    background-color:#1a1e27;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#fff;
+       }
+body{
+    background-color:#f6f5f5;
+}
+li.topic{
+    list-style:none;
+    padding-right:20px;
+    padding-bottom:10px;
+    
+
+}
+li.topic a{
+    color:#1a1e27;
+    
+}
+ul.nopad{
+    padding:0;
+}
+.glyphicon-play{
+    color:#646464;
+    margin-right:15px;
+    
+}
+.banner{
+    background-color:#1a1e27;
+    margin-top:20px;
+    
+}
+hr.gotcha {
+margin-top: 10px;
+margin-bottom: 10px;
+border: 0;
+border-top: 1px solid #bdbdbd;
+width: 580px;
+}
+li.linked{
+    list-style:none;
+   
+    padding-bottom:10px;
+
+    
+
+}
+li.linked a{
+    color:#fff;
+}
+.egg{
+    color:white;
+}
+@media (max-width:378px)
+{
+    img.same{
+        margin-bottom:10px;
+    }
+    p,a{
+        font-size:12px;
+    }
+    h3{
+        font-size:21px;
+    }
+    img{
+        width:40%;
+    }
+}
+hr.ban{
+border: 0;
+border-top: 1px solid #393939;
+}
+.flick{
+
+border: #646464 solid 2px;
+margin-left: 16px;
+margin-bottom: 10px;
+}
+button.marged{
+    float:right;
+margin-top: -42px;
+}
+.elegent{
+    margin-right: 10px;
+}
